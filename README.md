@@ -32,11 +32,4 @@ Clone the repository to your local machine.
 Install the required dependencies.
 Follow the Jupyter notebooks in the notebooks directory for step-by-step execution.
 Contributing
-We welcome contributions from the community! If you find any bugs, have feature requests, or would like to contribute code, please feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License.
-
-Acknowledgements
-Special thanks to [source of dataset, if applicable] for providing the data for this project.
 # machinelearning_customerchunk
