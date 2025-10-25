@@ -1,35 +1,53 @@
-Bank Customer Churn Detection
-Overview
-This repository contains a dataset and code for a machine learning project focused on predicting customer churn in a bank. Customer churn refers to the phenomenon where customers stop using the services of a business or company.
+# 🏦 Bank Customer Churn Detection
 
-Dataset
-The dataset (bank_customer_churn.csv) includes the following columns:
+A machine learning project to predict whether a bank customer will leave (churn) or stay, helping the bank take proactive retention actions.
 
-RowNumber: A unique identifier for each customer record.
-CustomerId: A unique identifier for each customer.
-Surname: The surname of the customer.
-CreditScore: The credit score of the customer.
-Geography: The country where the customer is located.
-Gender: The gender of the customer.
-Age: The age of the customer.
-Tenure: The number of years the customer has been with the bank.
-Balance: The account balance of the customer.
-NumOfProducts: The number of bank products the customer uses.
-HasCrCard: Whether the customer has a credit card (1 for yes, 0 for no).
-IsActiveMember: Whether the customer is an active member (1 for yes, 0 for no).
-EstimatedSalary: The estimated salary of the customer.
-Exited: Whether the customer has churned (1 for yes, 0 for no).
-Problem Statement
-The goal of this project is to develop a predictive model that can identify customers who are likely to churn. By proactively identifying these customers, the bank can take targeted actions to retain them, ultimately reducing customer attrition.
+---
 
-Key Features
-Data Preprocessing: Includes tasks like data cleaning, feature engineering, and handling imbalanced classes.
-Exploratory Data Analysis (EDA): Provides insights into the dataset and helps identify patterns.
-Model Building: Utilizes various machine learning algorithms to create a predictive model.
-Model Evaluation: Assesses the performance of the model using relevant metrics.
-Usage
-Clone the repository to your local machine.
-Install the required dependencies.
-Follow the Jupyter notebooks in the notebooks directory for step-by-step execution.
-Contributing
-# machinelearning_customerchunk
+## 📊 Overview
+Customer churn refers to customers stopping the use of a company’s services.  
+This project builds predictive models to **identify at-risk customers** using demographic and financial data.
+
+---
+
+## 📁 Dataset
+**File:** `bank_customer_churn.csv`  
+Each record represents a customer with the following key features:
+- **CreditScore, Age, Geography, Gender, Tenure, Balance**
+- **NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary**
+- **Exited** → Target variable (1 = churned, 0 = retained)
+
+---
+
+## 🎯 Problem Statement
+Develop a model to **predict customer churn** and provide insights into the factors driving attrition.  
+This can help financial institutions reduce churn rates and improve customer satisfaction.
+
+---
+
+## ⚙️ Key Features
+- **Data Preprocessing:** Cleaning, feature engineering, and handling class imbalance (SMOTE).  
+- **EDA:** Visualization and pattern discovery using Pandas, Matplotlib, and Seaborn.  
+- **Model Building:** Trained multiple algorithms — Logistic Regression, Decision Tree, Random Forest.  
+- **Model Evaluation:** Compared accuracy, precision, recall, and ROC-AUC metrics to choose the best model.
+
+---
+
+## 🧠 Tech Stack
+- **Languages:** Python  
+- **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
+- **Tools:** Jupyter Notebook
+
+---
+
+## 🚀 Results
+- Achieved **~85% accuracy** on test data.  
+- Identified key factors influencing churn (e.g., Credit Score, Age, Activity Level).  
+- Demonstrated practical use of ML for real-world customer retention strategy.
+
+---
+
+## 🧩 Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Prathamgupta24/machinelearning_customerchunk.git
